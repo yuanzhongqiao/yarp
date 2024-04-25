@@ -1,116 +1,97 @@
-![YARP logo](doc/images/yarp-robot-24.png?raw=true "YARP")
-YARP
-====
-
-[![YARP homepage](https://img.shields.io/badge/YARP-Yet_Another_Robot_Platform-19c2d8.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4QEDEQMztwAfSwAAAhRJREFUOMvVlD9ME2EYxn931x4crVDbajTRwbQSg8ZuDm6NuombBgcTZxMXY4gLySV2YDFMupKwAtESRhIxEQdcIFEjqK1/SsBaWkr/3ZXenUPTUpprA7Ed/Lbvfb7n+d7vyfN+AgCvV89gSMt0YknGFcKhhEiXlsOuOHbuhDvkVurYk29bua/FsgEQ7JOl8cCpYzVsNV+qPI3/yTdr2HYc9rrkSHROGZ2eUbTkhuJzSvVzPqckaskNZXR6RolE55Sw1yUfumOA+M4uWV0nq+nAQW5W04llsgz09LS0QiQyMcnS4nzHzF1anCcyMenAwotg+Zvxl7dvsmeaDPl9TK0nD2C3BgMEvR6cop2Tlh8Lr60Vwys/M7IoVDeJBFnDsGrY+1xp7/JKYqu2L3/PHz4VBcO0Cob9S00TMub+Ra09toghimsd81gU17CICa0m78WF0/1XB/rkdhrvssXyg8+bu3aT1zJuwV7ZEXL3OtsJJ/WKeaTJA4hu57QvWrnSTvhTQa8cWfj5r3Txn6zu7idkaCVwvUEQ+huCrmGRassWOA6CqyGM6aoWCPXawsdHYD1uYL3l+sU7bYUXPjwD7u73wkNuXJrtqhX/n3DVY1UVOTn4ClG6Vkcqxiap9SFUtWzLVFUZX2AZp3y+Xitrs6Tj91FVs5oKh/ss27+Hm6gBRM8IMGX/Vs8IO6lQU/UeDvcY8OMv7HG7CnjlFeQAAAAASUVORK5CYII=)](http://www.yarp.it/)
-
-     __  __ ___  ____   ____
-     \ \/ //   ||  _ \ |  _ \
-      \  // /| || |/ / | |/ /
-      / // ___ ||  _ \ |  _/
-     /_//_/  |_||_| \_\|_|
-     ========================
-    Yet Another Robot Platform
-
-[![Latest release](https://img.shields.io/github/release/robotology/yarp.svg)](https://github.com/robotology/yarp/releases)
-[![Release date](https://img.shields.io/github/release-date/robotology/yarp.svg)](https://github.com/robotology/yarp/releases)
-
-YARP is a library and toolkit for communication and device interfaces,
-used on everything from humanoids to embedded devices.
-
-
-Documentation
--------------
-
-[![YARP documentation](https://img.shields.io/badge/Documentation-yarp.it-19c2d8.svg)](http://www.yarp.it/)
-
-
-Officially supported systems:
-------------
-The following systems are officially supported and tested by github CI.
-* Ubuntu 22.04 - clang 17
-* Ubuntu 22.04 - gcc 11.4.0
-* Windows  10.0.17763 - VS 16.11.2.50704
-* Windows  10.0.20348 - VS 17.8.34309.116
-* macOS  12.6.9 - clang 14.0.3
-* macOS  13.6 - clang 14.0.3
-
-Installation
-------------
-
-See full instructions at http://www.yarp.it/install.html
-
-* On Linux:
-
-```bash
-sudo apt-get install cmake libace-dev
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/robotology/yarp/blob/master/doc/images/yarp-robot-24.png?raw=true"><img src="/robotology/yarp/raw/master/doc/images/yarp-robot-24.png?raw=true" alt="亚普标志" title="雅普" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+雅普</font></font></h1><a id="user-content-yarp" class="anchor" aria-label="永久链接：YARP" href="#yarp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="http://www.yarp.it/" rel="nofollow"><img src="https://camo.githubusercontent.com/d9ce987084aaee41ea41a13703d9a6048d00ceb1590d00da7ac368ddf3a4ea3e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f594152502d5965745f416e6f746865725f526f626f745f506c6174666f726d2d3139633264382e7376673f6c6f676f3d646174613a696d6167652f706e673b6261736536342c6956424f5277304b47676f414141414e5355684555674141414259414141415743415941414144457447773741414141426d4a4c523051412f77442f41502b6776616554414141414358424957584d41414137454141414f784147564b773462414141414233524a545555483451454445514d7a74774166537741414168524a524546554f4d76566c44394d45324559786e39333178346372564462616a54527762515367385a75446d364e756f6d62426763545a784d585934674c795356325944464d75704b774174455352684978455164634946456a714b312f53734261576b722f335a58656e55505455707072413745642f4c62766662376e2b64377679664e2b4167437656383967534d7430596b6e4746634b68684569586c734f754f4862756844766b567572596b32396275612f4673674551374a4f6c38634370597a56734e562b715049332f79546472324859633972726b5348524f475a32655562546b68754a7a5376567a5071636b61736b4e5a585236526f6c453535537731795566756d4f412b4d34755756306e712b6e415157355730346c6c73677a30394c5330516951794d636e53346e7a487a4631616e4363794d656e41776f74672b5a76786c376476736d656144506c39544b306e4432433342674d45765236636f7032546c68384c723630567779732f4d37496f5644654a42466e44734772592b317870372f4a4b597175324c332f50487a345642634f30436f6239533030544d75622b52613039746f6768696d736438316755313743494361306d37385746302f3158422f726b646872767373587967382b6275336154317a4a757756375a45584c334f74734a4a2f574b6561544a413468753537517657726e53547668545161386357666a35723354786e367a753769646b61435677765545512b687543726d4752617373574f4136437179474d36616f57435058617773644859443175594c336c2b73553762595558506a774437753733776b4e75584a72747168582f6e334456593155564f546e34436c4736566b6371786961703953465574577a4c5646555a5832415a7033792b586974727336546a3931465673356f4b682f737332372b486d366742524d38494d47582f567338494f366c51552f556544766359384f4d7637484737436e6a6c46655141414141415355564f524b35435949493d" alt="雅普主页" data-canonical-src="https://img.shields.io/badge/YARP-Yet_Another_Robot_Platform-19c2d8.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4QEDEQMztwAfSwAAAhRJREFUOMvVlD9ME2EYxn931x4crVDbajTRwbQSg8ZuDm6NuombBgcTZxMXY4gLySV2YDFMupKwAtESRhIxEQdcIFEjqK1/SsBaWkr/3ZXenUPTUpprA7Ed/Lbvfb7n+d7vyfN+AgCvV89gSMt0YknGFcKhhEiXlsOuOHbuhDvkVurYk29bua/FsgEQ7JOl8cCpYzVsNV+qPI3/yTdr2HYc9rrkSHROGZ2eUbTkhuJzSvVzPqckaskNZXR6RolE55Sw1yUfumOA+M4uWV0nq+nAQW5W04llsgz09LS0QiQyMcnS4nzHzF1anCcyMenAwotg+Zvxl7dvsmeaDPl9TK0nD2C3BgMEvR6cop2Tlh8Lr60Vwys/M7IoVDeJBFnDsGrY+1xp7/JKYqu2L3/PHz4VBcO0Cob9S00TMub+Ra09toghimsd81gU17CICa0m78WF0/1XB/rkdhrvssXyg8+bu3aT1zJuwV7ZEXL3OtsJJ/WKeaTJA4hu57QvWrnSTvhTQa8cWfj5r3Txn6zu7idkaCVwvUEQ+huCrmGRassWOA6CqyGM6aoWCPXawsdHYD1uYL3l+sU7bYUXPjwD7u73wkNuXJrtqhX/n3DVY1UVOTn4ClG6Vkcqxiap9SFUtWzLVFUZX2AZp3y+Xitrs6Tj91FVs5oKh/ss27+Hm6gBRM8IMGX/Vs8IO6lQU/UeDvcY8OMv7HG7CnjlFeQAAAAASUVORK5CYII=" style="max-width: 100%;"></a></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code> __  __ ___  ____   ____
+ \ \/ //   ||  _ \ |  _ \
+  \  // /| || |/ / | |/ /
+  / // ___ ||  _ \ |  _/
+ /_//_/  |_||_| \_\|_|
+ ========================
+Yet Another Robot Platform
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value=" __  __ ___  ____   ____
+ \ \/ //   ||  _ \ |  _ \
+  \  // /| || |/ / | |/ /
+  / // ___ ||  _ \ |  _/
+ /_//_/  |_||_| \_\|_|
+ ========================
+Yet Another Robot Platform" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><a href="https://github.com/robotology/yarp/releases"><img src="https://camo.githubusercontent.com/380453838e2ebfe3642d74cbf19fea40bd8f80bc9f4ca0006bc9dadf134d1ebe/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f726f626f746f6c6f67792f796172702e737667" alt="最新发布" data-canonical-src="https://img.shields.io/github/release/robotology/yarp.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/robotology/yarp/releases"><img src="https://camo.githubusercontent.com/dcd388163db678895d03180736b026486913a3c08141e3896c1068ca249334f9/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652d646174652f726f626f746f6c6f67792f796172702e737667" alt="发布日期" data-canonical-src="https://img.shields.io/github/release-date/robotology/yarp.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YARP 是一个用于通信和设备接口的库和工具包，可用于从人形机器人到嵌入式设备的所有设备。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="http://www.yarp.it/" rel="nofollow"><img src="https://camo.githubusercontent.com/9ce95275f31e07eba11b6cc312ec00bf6c8edf05b9922ac54ad9bbbca5eb188b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f63756d656e746174696f6e2d796172702e69742d3139633264382e737667" alt="YARP 文档" data-canonical-src="https://img.shields.io/badge/Documentation-yarp.it-19c2d8.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方支持的系统：</font></font></h2><a id="user-content-officially-supported-systems" class="anchor" aria-label="永久链接：官方支持的系统：" href="#officially-supported-systems"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下系统均由 github CI 官方支持和测试。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu 22.04 - 铿锵 17</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu 22.04 - 海湾合作委员会 11.4.0</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 10.0.17763 - VS 16.11.2.50704</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 10.0.20348 - VS 17.8.34309.116</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">macOS 12.6.9 - 铿锵 14.0.3</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">macOS 13.6 - 铿锵 14.0.3</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="http://www.yarp.it/install.html" rel="nofollow"><font style="vertical-align: inherit;">请参阅http://www.yarp.it/install.html</font></a><font style="vertical-align: inherit;">上的完整说明</font></font><a href="http://www.yarp.it/install.html" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Linux 上：</font></font></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>sudo apt-get install cmake libace-dev
 wget -nv https://github.com/robotology/ycm/releases/download/v0.15.3/ycm-cmake-modules-0.15.3-all.deb
 sudo dpkg -i ycm-cmake-modules-0.15.3-all.deb
 git clone https://github.com/robotology/yarp
-cd yarp && mkdir build && cd build && cmake .. && make
-sudo make install  # Optional
-```
-
-Regular YARP builds use the [ACE](https://github.com/DOCGroup/ACE_TAO) library.
-On Linux and macOS, YARP can be compiled without ACE by adding `-DSKIP_ACE=TRUE`
-when running cmake.
-
-
-Tutorials
----------
-
-There's a comprehensive list of tutorials here:
-
- * http://www.yarp.it/tutorials.html
-
-
-License
--------
-
-[![License](https://img.shields.io/badge/license-BSD--3--Clause%20%2B%20others-19c2d8.svg)](https://github.com/robotology/yarp/blob/master/LICENSE)
-
-Material included in YARP is Copyright of Istituto Italiano di Tecnologia (IIT),
-RobotCub Consortium and other contributors.
-
-Most YARP components are released under the terms of the BSD-3-Clause.
-Some optional components are released under the terms of the LGPL-2.1 or later,
-GPL-2.0 or later, GPL-3.0 or later, or Apache-2.0 License.
-See the file COPYING and LICENSE files for details.
-
-
-CI Status
----------
-
-[![Build Status](https://github.com/robotology/yarp/workflows/CI%20Workflow/badge.svg)](https://github.com/robotology/yarp/actions?query=workflow%3A%22CI+Workflow%22)
-
-Stats
------
-
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/robotology/yarp/latest.svg)](https://github.com/robotology/yarp)
-[![GitHub last commit](https://img.shields.io/github/last-commit/robotology/yarp/master.svg?label=last%20commit)](https://github.com/robotology/yarp)
-
-[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/robotology/yarp.svg)](https://github.com/robotology/yarp)
-[![GitHub contributors](https://img.shields.io/github/contributors/robotology/yarp.svg)](https://github.com/robotology/yarp/graphs/contributors)
-
-[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/robotology/yarp.svg)](https://github.com/robotology/yarp/issues)
-[![GitHub issues](https://img.shields.io/github/issues-raw/robotology/yarp.svg)](https://github.com/robotology/yarp/issues)
-
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/robotology/yarp.svg)](https://github.com/robotology/yarp/pulls)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/robotology/yarp.svg)](https://github.com/robotology/yarp/pulls)
-
-[![GitHub top language](https://img.shields.io/github/languages/count/robotology/yarp.svg)](https://github.com/robotology/yarp)
-[![GitHub language count](https://img.shields.io/github/languages/top/robotology/yarp.svg)](https://github.com/robotology/yarp)
-
-
-Development Powered by
-----------------------
-
-[![GitHub](https://img.shields.io/badge/Hosted_on-GitHub-24292e.svg?logo=github)](https://github.com)
-
-[![Slack](https://img.shields.io/badge/-Slack-4d394b.svg?logo=slack)](https://icub-facility.slack.com)
-
-[![ZenHub](https://img.shields.io/badge/Shipping_faster_with-ZenHub-435198.svg)](https://zenhub.com)
-
-[![Shields.io](https://img.shields.io/badge/Badges_by-Shields.io-green.svg)](https://shields.io/)
-
-[![YARPino](https://img.shields.io/badge/YARP-ino-19c2d8.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4QEDEQMztwAfSwAAAhRJREFUOMvVlD9ME2EYxn931x4crVDbajTRwbQSg8ZuDm6NuombBgcTZxMXY4gLySV2YDFMupKwAtESRhIxEQdcIFEjqK1/SsBaWkr/3ZXenUPTUpprA7Ed/Lbvfb7n+d7vyfN+AgCvV89gSMt0YknGFcKhhEiXlsOuOHbuhDvkVurYk29bua/FsgEQ7JOl8cCpYzVsNV+qPI3/yTdr2HYc9rrkSHROGZ2eUbTkhuJzSvVzPqckaskNZXR6RolE55Sw1yUfumOA+M4uWV0nq+nAQW5W04llsgz09LS0QiQyMcnS4nzHzF1anCcyMenAwotg+Zvxl7dvsmeaDPl9TK0nD2C3BgMEvR6cop2Tlh8Lr60Vwys/M7IoVDeJBFnDsGrY+1xp7/JKYqu2L3/PHz4VBcO0Cob9S00TMub+Ra09toghimsd81gU17CICa0m78WF0/1XB/rkdhrvssXyg8+bu3aT1zJuwV7ZEXL3OtsJJ/WKeaTJA4hu57QvWrnSTvhTQa8cWfj5r3Txn6zu7idkaCVwvUEQ+huCrmGRassWOA6CqyGM6aoWCPXawsdHYD1uYL3l+sU7bYUXPjwD7u73wkNuXJrtqhX/n3DVY1UVOTn4ClG6Vkcqxiap9SFUtWzLVFUZX2AZp3y+Xitrs6Tj91FVs5oKh/ss27+Hm6gBRM8IMGX/Vs8IO6lQU/UeDvcY8OMv7HG7CnjlFeQAAAAASUVORK5CYII=)](doc/images/yarp-robot-256.png?raw=true)
+<span class="pl-c1">cd</span> yarp <span class="pl-k">&amp;&amp;</span> mkdir build <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">cd</span> build <span class="pl-k">&amp;&amp;</span> cmake .. <span class="pl-k">&amp;&amp;</span> make
+sudo make install  <span class="pl-c"><span class="pl-c">#</span> Optional</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="sudo apt-get install cmake libace-dev
+wget -nv https://github.com/robotology/ycm/releases/download/v0.15.3/ycm-cmake-modules-0.15.3-all.deb
+sudo dpkg -i ycm-cmake-modules-0.15.3-all.deb
+git clone https://github.com/robotology/yarp
+cd yarp &amp;&amp; mkdir build &amp;&amp; cd build &amp;&amp; cmake .. &amp;&amp; make
+sudo make install  # Optional" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常规 YARP 构建使用</font></font><a href="https://github.com/DOCGroup/ACE_TAO"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ACE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库。在 Linux 和 macOS 上，通过在运行 cmake 时添加，可以在没有 ACE 的情况下编译 YARP </font></font><code>-DSKIP_ACE=TRUE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></h2><a id="user-content-tutorials" class="anchor" aria-label="永久链接：教程" href="#tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里有一个完整的教程列表：</font></font></p>
+<ul dir="auto">
+<li><a href="http://www.yarp.it/tutorials.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.yarp.it/tutorials.html</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/robotology/yarp/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/a6c974e094001bce7dae3b87e5b60c7f427ba1d65cecfd01aa15d9d4d4cb4f93/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4253442d2d332d2d436c617573652532302532422532306f74686572732d3139633264382e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/license-BSD--3--Clause%20%2B%20others-19c2d8.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YARP 中包含的材料的版权属于 Istituto Italiano di Tecnologia (IIT)、RobotCub Consortium 和其他贡献者。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数 YARP 组件都是根据 BSD-3 条款发布的。某些可选组件根据 LGPL-2.1 或更高版本、GPL-2.0 或更高版本、GPL-3.0 或更高版本或 Apache-2.0 许可证的条款发布。有关详细信息，请参阅文件复制和许可证文件。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CI状态</font></font></h2><a id="user-content-ci-status" class="anchor" aria-label="永久链接：CI 状态" href="#ci-status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/robotology/yarp/actions?query=workflow%3A%22CI+Workflow%22"><img src="https://github.com/robotology/yarp/workflows/CI%20Workflow/badge.svg" alt="构建状态" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">统计数据</font></font></h2><a id="user-content-stats" class="anchor" aria-label="永久链接：统计数据" href="#stats"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/robotology/yarp"><img src="https://camo.githubusercontent.com/d60da8a3dc1a7fb527f7117fa8fa9aa9b0fe8712bfd91946ab8cb7751a9a7112/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d6974732d73696e63652f726f626f746f6c6f67792f796172702f6c61746573742e737667" alt="Github 提交（自最新版本以来）" data-canonical-src="https://img.shields.io/github/commits-since/robotology/yarp/latest.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/robotology/yarp"><img src="https://camo.githubusercontent.com/953268f786579a2bda3c28eb99cbcdf6389ca475fb71ee9d5cd06792683bdbb2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f726f626f746f6c6f67792f796172702f6d61737465722e7376673f6c6162656c3d6c617374253230636f6d6d6974" alt="GitHub 最后一次提交" data-canonical-src="https://img.shields.io/github/last-commit/robotology/yarp/master.svg?label=last%20commit" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/robotology/yarp"><img src="https://camo.githubusercontent.com/4f369950f797c52502fce3262a0b8573a684889761d1328ab5c251db0252955e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f792f726f626f746f6c6f67792f796172702e737667" alt="过去一周、过去 4 周、过去一年的 GitHub 提交活动" data-canonical-src="https://img.shields.io/github/commit-activity/y/robotology/yarp.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/robotology/yarp/graphs/contributors"><img src="https://camo.githubusercontent.com/78f39f66ab590c29091fcd97c9d18dc4838be931ba844d887a6304b43c395505/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f726f626f746f6c6f67792f796172702e737667" alt="GitHub 贡献者" data-canonical-src="https://img.shields.io/github/contributors/robotology/yarp.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/robotology/yarp/issues"><img src="https://camo.githubusercontent.com/ec0fef6d1e09c672a5860ad7736e3dbb9059bb60bfd13c17250d9e97cad6a88d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f726f626f746f6c6f67792f796172702e737667" alt="GitHub 已关闭问题" data-canonical-src="https://img.shields.io/github/issues-closed-raw/robotology/yarp.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/robotology/yarp/issues"><img src="https://camo.githubusercontent.com/75e4042ad0b1f9c0e14e0f86ab423930bf6746f4a4b9dc690387a5b8b78667e1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7261772f726f626f746f6c6f67792f796172702e737667" alt="GitHub 问题" data-canonical-src="https://img.shields.io/github/issues-raw/robotology/yarp.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/robotology/yarp/pulls"><img src="https://camo.githubusercontent.com/146b8e46cdbc9949ab88b9753edfb320655f063b148c3370dc20a89dc4135c2e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722d7261772f726f626f746f6c6f67792f796172702e737667" alt="GitHub 拉取请求" data-canonical-src="https://img.shields.io/github/issues-pr-raw/robotology/yarp.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/robotology/yarp/pulls"><img src="https://camo.githubusercontent.com/0848ba066753e9ec4d55618218c944bfcf6afc2a00d2ed41df28c18cae15d1a5/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722d636c6f7365642d7261772f726f626f746f6c6f67792f796172702e737667" alt="GitHub 关闭拉取请求" data-canonical-src="https://img.shields.io/github/issues-pr-closed-raw/robotology/yarp.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/robotology/yarp"><img src="https://camo.githubusercontent.com/b1e71ed10bbec3887c6d727591a45b676a98b08661cc9996df901e93d790f3bc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f756e742f726f626f746f6c6f67792f796172702e737667" alt="GitHub 顶级语言" data-canonical-src="https://img.shields.io/github/languages/count/robotology/yarp.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/robotology/yarp"><img src="https://camo.githubusercontent.com/c20ef852c623acc38ab74421fc23ee848af83855d3f03b819b05a052b92f570e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f746f702f726f626f746f6c6f67792f796172702e737667" alt="GitHub 语言计数" data-canonical-src="https://img.shields.io/github/languages/top/robotology/yarp.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发动力来自</font></font></h2><a id="user-content-development-powered-by" class="anchor" aria-label="永久链接： 开发由" href="#development-powered-by"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com"><img src="https://camo.githubusercontent.com/1b32a9f5f5245075e48b0cccdff185381c9af51a46fe642d5e5645da4bcae2a1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486f737465645f6f6e2d4769744875622d3234323932652e7376673f6c6f676f3d676974687562" alt="GitHub" data-canonical-src="https://img.shields.io/badge/Hosted_on-GitHub-24292e.svg?logo=github" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://icub-facility.slack.com" rel="nofollow"><img src="https://camo.githubusercontent.com/9e182babf7d83c7ef58f2011d41a8c0b16c9ae64b01a62bdb8ebe470d4db573e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d536c61636b2d3464333934622e7376673f6c6f676f3d736c61636b" alt="松弛" data-canonical-src="https://img.shields.io/badge/-Slack-4d394b.svg?logo=slack" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://zenhub.com" rel="nofollow"><img src="https://camo.githubusercontent.com/6cf69c11889b6702ce7e01603596af771fbacd6e61cbc33568a1b52a070d5e9f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5368697070696e675f6661737465725f776974682d5a656e4875622d3433353139382e737667" alt="禅集中心" data-canonical-src="https://img.shields.io/badge/Shipping_faster_with-ZenHub-435198.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://shields.io/" rel="nofollow"><img src="https://camo.githubusercontent.com/65b42d3d38e8c8e0133444da2b10d320356c897bc06e70dbb03f95bb7680c1e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4261646765735f62792d536869656c64732e696f2d677265656e2e737667" alt="盾牌io" data-canonical-src="https://img.shields.io/badge/Badges_by-Shields.io-green.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="/robotology/yarp/blob/master/doc/images/yarp-robot-256.png?raw=true"><img src="https://camo.githubusercontent.com/8380f7262f1770d0884cd8adb9225e104255d0de4952f2b26c5b4a533d8ef73d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f594152502d696e6f2d3139633264382e7376673f6c6f676f3d646174613a696d6167652f706e673b6261736536342c6956424f5277304b47676f414141414e5355684555674141414259414141415743415941414144457447773741414141426d4a4c523051412f77442f41502b6776616554414141414358424957584d41414137454141414f784147564b773462414141414233524a545555483451454445514d7a74774166537741414168524a524546554f4d76566c44394d45324559786e39333178346372564462616a54527762515367385a75446d364e756f6d62426763545a784d585934674c795356325944464d75704b774174455352684978455164634946456a714b312f53734261576b722f335a58656e55505455707072413745642f4c62766662376e2b64377679664e2b4167437656383967534d7430596b6e4746634b68684569586c734f754f4862756844766b567572596b32396275612f4673674551374a4f6c38634370597a56734e562b715049332f79546472324859633972726b5348524f475a32655562546b68754a7a5376567a5071636b61736b4e5a585236526f6c453535537731795566756d4f412b4d34755756306e712b6e415157355730346c6c73677a30394c5330516951794d636e53346e7a487a4631616e4363794d656e41776f74672b5a76786c376476736d656144506c39544b306e4432433342674d45765236636f7032546c68384c723630567779732f4d37496f5644654a42466e44734772592b317870372f4a4b597175324c332f50487a345642634f30436f6239533030544d75622b52613039746f6768696d736438316755313743494361306d37385746302f3158422f726b646872767373587967382b6275336154317a4a757756375a45584c334f74734a4a2f574b6561544a413468753537517657726e53547668545161386357666a35723354786e367a753769646b61435677765545512b687543726d4752617373574f4136437179474d36616f57435058617773644859443175594c336c2b73553762595558506a774437753733776b4e75584a72747168582f6e334456593155564f546e34436c4736566b6371786961703953465574577a4c5646555a5832415a7033792b586974727336546a3931465673356f4b682f737332372b486d366742524d38494d47582f567338494f366c51552f556544766359384f4d7637484737436e6a6c46655141414141415355564f524b35435949493d" alt="雅皮诺" data-canonical-src="https://img.shields.io/badge/YARP-ino-19c2d8.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4QEDEQMztwAfSwAAAhRJREFUOMvVlD9ME2EYxn931x4crVDbajTRwbQSg8ZuDm6NuombBgcTZxMXY4gLySV2YDFMupKwAtESRhIxEQdcIFEjqK1/SsBaWkr/3ZXenUPTUpprA7Ed/Lbvfb7n+d7vyfN+AgCvV89gSMt0YknGFcKhhEiXlsOuOHbuhDvkVurYk29bua/FsgEQ7JOl8cCpYzVsNV+qPI3/yTdr2HYc9rrkSHROGZ2eUbTkhuJzSvVzPqckaskNZXR6RolE55Sw1yUfumOA+M4uWV0nq+nAQW5W04llsgz09LS0QiQyMcnS4nzHzF1anCcyMenAwotg+Zvxl7dvsmeaDPl9TK0nD2C3BgMEvR6cop2Tlh8Lr60Vwys/M7IoVDeJBFnDsGrY+1xp7/JKYqu2L3/PHz4VBcO0Cob9S00TMub+Ra09toghimsd81gU17CICa0m78WF0/1XB/rkdhrvssXyg8+bu3aT1zJuwV7ZEXL3OtsJJ/WKeaTJA4hu57QvWrnSTvhTQa8cWfj5r3Txn6zu7idkaCVwvUEQ+huCrmGRassWOA6CqyGM6aoWCPXawsdHYD1uYL3l+sU7bYUXPjwD7u73wkNuXJrtqhX/n3DVY1UVOTn4ClG6Vkcqxiap9SFUtWzLVFUZX2AZp3y+Xitrs6Tj91FVs5oKh/ss27+Hm6gBRM8IMGX/Vs8IO6lQU/UeDvcY8OMv7HG7CnjlFeQAAAAASUVORK5CYII=" style="max-width: 100%;"></a></p>
+</article></div>
